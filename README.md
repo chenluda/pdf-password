@@ -13,3 +13,10 @@ PDF 的加密和所有者密码去密都可以通过 PyPDF2 库来实现，而�
 
 https://github.com/zxcvbn001/password_brute_dictionary
 
+---
+
+运行代码：
+```
+python app.py
+```
+
