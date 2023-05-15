@@ -1,5 +1,5 @@
 '''
-Description: 
+Description: PDF 文件的加密与去密
 Version: 1.0
 Author: Glenn
 Email: chenluda01@outlook.com
