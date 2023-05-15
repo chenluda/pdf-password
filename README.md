@@ -17,6 +17,6 @@ https://github.com/zxcvbn001/password_brute_dictionary
 
 运行代码：
 ```
-python app.py
+python main.py
 ```
 
