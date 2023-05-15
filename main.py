@@ -100,8 +100,10 @@ def set_encrypt_pdf(input_file, output_file, password):
             page = pdf_reader.pages[page_num]
             pdf_writer.add_page(page)
 
-        # 为 PDF 文件添加密码
+        # 为 PDF 文件添加用户密码（user password）
         pdf_writer.encrypt(password)
+        # 为 PDF 文件添加权限密码（user password）
+        # pdf_writer.encrypt('', password)
 
         # 将加密后的 PDF 内容写入新文件
         with open(output_file, 'wb') as output:
