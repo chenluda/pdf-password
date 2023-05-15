@@ -8,9 +8,6 @@ FilePath: \17-zhuhu2mdWeb\pdf.py
 Copyright (c) 2023 by Kust-BME, All Rights Reserved. 
 '''
 import PyPDF2
-import pikepdf
-from tqdm import tqdm
-import os
 
 import os
 import pikepdf
